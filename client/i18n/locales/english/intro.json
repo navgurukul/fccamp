@@ -1838,7 +1838,13 @@
         ]
       },
       "dxpc": { "title": "36", "intro": [] },
-      "liti": { "title": "37", "intro": [] },
+      "workshop-cafe-menu": {
+        "title": "Design a Cafe Menu",
+        "intro": [
+          "CSS tells the browser how to display your webpage. You can use CSS to set the color, font, size, and other aspects of HTML elements.",
+          "In this workshop, you'll learn CSS by designing a menu page for a cafe webpage."
+        ]
+      },
       "lab-business-card": {
         "title": "Design a Business Card",
         "intro": [
@@ -2197,7 +2203,10 @@
       },
       "dvnt": { "title": "164", "intro": [] },
       "ekdb": { "title": "165", "intro": [] },
-      "ezek": { "title": "166", "intro": [] },
+      "lab-quiz-game": {
+        "title": "Build a Quiz Game",
+        "intro": ["For this lab, you will build a quiz game."]
+      },
       "lab-factorial-calculator": {
         "title": "Build a Factorial Calculator ",
         "intro": ["In this lab, you will build a factorial calculator."]
@@ -2361,7 +2370,10 @@
       },
       "pehm": { "title": "227", "intro": [] },
       "cvsw": { "title": "228", "intro": [] },
-      "qjws": { "title": "229", "intro": [] },
+      "lab-bookmark-manager-app": {
+        "title": "Build a Bookmark Manager App",
+        "intro": ["For this lab, you will build a bookmark manager app."]
+      },
       "fgbp": { "title": "230", "intro": [] },
       "quiz-local-storage-and-crud": {
         "title": "Local Storage and CRUD Quiz",
