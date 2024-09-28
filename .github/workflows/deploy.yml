@@ -60,18 +60,12 @@ jobs:
       
     - name: Run deployment script based on branch
       run: |
-        scp -o StrictHostKeyChecking=no api-artifact.tar ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/ubuntu/
+        scp -o StrictHostKeyChecking=no api-artifact.tar ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/freeCodeCamp/
 
         ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
-        cd /home/ubuntu/
+        cd /home/freeCodeCamp/
         sudo docker load < ./api-artifact.tar
         rm api-artifact.tar
-        
-        if [ "${{ github.ref }}" == "refs/heads/dev" ]; then
-          ./deploy-fcc-dev.sh    # Run this script for dev branch
-        elif [ "${{ github.ref }}" == "refs/heads/main" ]; then
-          ./deploy-fcc-main.sh   # Run this script for main branch
-        fi
         EOF
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
