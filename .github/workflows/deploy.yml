@@ -98,12 +98,11 @@ jobs:
       
     - name: Run deployment script based on branch
       run: |
-        #scp -o StrictHostKeyChecking=no api-artifact.tar ${{ secrets.SSH_USER }}@${{ secrets.DEV_SSH_HOST }}:/home/ubuntu/freeCodeCamp/
-        #scp -o StrictHostKeyChecking=no client-artifact.tar ${{ secrets.SSH_USER }}@${{ secrets.DEV_SSH_HOST }}:/home/ubuntu/freeCodeCamp/
+        scp -o StrictHostKeyChecking=no api-artifact.tar ${{ secrets.SSH_USER }}@${{ secrets.DEV_SSH_HOST }}:/home/ubuntu/freeCodeCamp/
+        scp -o StrictHostKeyChecking=no client-artifact.tar ${{ secrets.SSH_USER }}@${{ secrets.DEV_SSH_HOST }}:/home/ubuntu/freeCodeCamp/
 
         ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.DEV_SSH_HOST }} << 'EOF'
         pwd
-        tree
         cd /home/ubuntu/freeCodeCamp/
         git pull
         sudo docker load < ./api-artifact.tar
