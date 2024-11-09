@@ -1,20 +1,20 @@
 ---
-id: 65f4136f9d2a942229aa018e
+id: 66f2988e5ce47a89f2c3c012
 videoId: ADD YOUR VIDEO ID HERE!!!
-title: Step 8
+title: Deepen Insight into Variables
 challengeType: 11
-dashedName: step-8
+dashedName: deepen-insight-into-variables
 ---
 
 # --description--
 
-How Computer Understands our Code?  description.
+Deepen Insight into Variables description.
 
 # --question--
 
 ## --text--
 
-How Computer Understands our Code?  question?
+Deepen Insight into Variables question?
 
 ## --answers--
 

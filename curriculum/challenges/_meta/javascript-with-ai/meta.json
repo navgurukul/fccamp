@@ -1,0 +1,24 @@
+{
+  "name": "Javascript with AI",
+  "isUpcomingChange": true,
+  "usesMultifileEditor": false,
+  "hasEditableBoundaries": false,
+  "dashedName": "javascript-with-ai",
+  "order": 42,
+  "superBlock": "javascript-algorithms-and-data-structures",
+  "challengeOrder": [
+    {
+      "id": "66f2988e5ce47a89f2c3c012",
+      "title": "Deepen Insight into Variables"
+    },
+    {
+      "id": "66ff9497a20c5b37f678bf8d",
+      "title": "Advance Understanding of Arrays"
+    },
+    {
+      "id": "66ff96f751c97b3cd7e7a44b",
+      "title": "Advanced Exploration of Loop Structures"
+    }
+  ],
+  "helpCategory": "JavaScript"
+}
