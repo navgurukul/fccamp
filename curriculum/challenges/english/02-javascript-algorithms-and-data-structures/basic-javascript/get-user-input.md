@@ -16,7 +16,7 @@ We use this way of taking input in the text editor. On online IDE’s we use pro
 JavaScript mein, readline-sync ka istemal input lene ke liye, aap ek "variable" ke roop mein ek jagah banate hain jisme jawab ko store kiya jata hai. Fir, aap readline-sync module se question() function ka istemal karte hain ek sawal puchne ke liye aur user se jawab dene ke liye intezaar karte hain. Jab wo jawab likhte hain aur Enter dabate hain, to wo variable mein store ho jata hai. Ye computer ke sath baat karne jaisa hai, jahan aap kuch puchte hain aur wo aap se jawab dene ke liye intezaar karta hai.
 Hum is tarah se input lene ka tareeka text editor mein istemal karte hain. Online IDEs mein hum prompt() ka istemal JavaScript mein input lene ke liye karte hain. Hum prompt() ke bare mein agle challenge mein aur bhi adhik jaanenge.
 
-# --question--
+# --questions--
 
 ## --text--
 

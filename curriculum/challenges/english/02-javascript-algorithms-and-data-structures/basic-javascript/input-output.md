@@ -41,7 +41,7 @@ console.log(name);
 
 Ismein, `prompt` function se naam input liya gaya hai aur fir uss naam ko console par print kiya gaya hai.
 
-# --question--
+# --questions--
 
 ## --text--
 

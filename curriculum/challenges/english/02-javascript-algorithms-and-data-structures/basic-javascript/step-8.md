@@ -23,7 +23,7 @@ Apne pehle programming class mein, aap shayad compilers ke baare mein seekha hog
 Jab aap code likhte hain, aap ek high-level language ka istemal karte hain jo insaano ke liye samajhne mein aasan hoti hai. Compiler is high-level code ko translate karta hai low-level machine code mein, jo instructions se milta hai jo computer ka processor execute kar sakta hai. Ye machine code hi wo hai jo sach mein chalaya jaata hai jab aap apna program chalate hain.
 
 Compilers complex programs hote hain jo human-readable code aur machine-readable code ke beech ka fasla karte hain. Ye aapke source code ko lekar executable code generate karte hain jo ek computer par chalaya ja sakta hai. Bina compilers ke, software likhna kaafi mushkil hota, kyun ki programmers ko seedhe machine code mein likhna padta, jo ki bahut hi tedious aur error-prone hota hai.
-# --question--
+# --questions--
 
 ## --text--
 

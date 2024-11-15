@@ -19,7 +19,7 @@ Node.js muft me uplabdh hai.
 Node.js alag-alag platforms (Windows, Linux, Unix, Mac OS X, aadi) par chalta hai.
 Node.js server par JavaScript ka istemal karta hai.
 
-# --question--
+# --questions--
 
 ## --text--
 

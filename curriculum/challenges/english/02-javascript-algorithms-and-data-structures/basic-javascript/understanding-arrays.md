@@ -45,7 +45,7 @@ JavaScript mein arrays dynamic hote hain, jiska matlab hai aap unme elements ko 
 Aam taur par, JavaScript mein arrays bahut upyogi hote hain aur inka istemal data collections ko store aur manipulate karne ke liye kiya jata hai.
 
 
-# --question--
+# --questions--
 
 ## --text--
 

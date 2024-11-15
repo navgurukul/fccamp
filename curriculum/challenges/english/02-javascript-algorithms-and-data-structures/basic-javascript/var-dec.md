@@ -18,7 +18,7 @@ dashedName: var-dec
 - `let` aur `const` keyword ko 2015 mein JavaScript mein joda gaya tha.
 - `var` keyword sirf purane browsers ke liye likhe gaye code mein istemal karna chahiye.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -22,7 +22,7 @@ Isme aata hai npm jaise package manager. npm is samasya ko hal karta hai apke pr
 Aap apne project ke sare dependencies ko apne package.json file mein define karte hain. Jab bhi aap ya koi team member apne project ka istemal shuru karna chahe, unhe bas npm install chalana hota hai.
 Yeh turant apke project ke liye sabhi zaroori dependencies ko install kar dega. package.json file mein, aap yeh bhi specify kar sakte hain ki apka project kin versions par nirbhar karta hai. Yeh achha hota hai taaki in packages ke updates apke project ko nuksan na pahuncha sake.
 
-# --question--
+# --questions--
 
 ## --text--
 

@@ -27,7 +27,7 @@ package.json file mein ek scripts property bhi hoti hai. Iska upyog command line
 -npm start—apne project ko local mein chalane ke liye
 
 Bilkul, aap apne vishisht project ke liye sahi scripts ko customize karne mein mukt hain.
-# --question--
+# --questions--
 
 ## --text--
 

@@ -83,12 +83,20 @@
       "title": "Variable Declaration"
     },
     {
+      "id": "6606c952f62155112026cbb0",
+      "title": "Declare JavaScript Variables"
+    },
+    {
       "id": "66126195048243f78835919c",
       "title": "Understanding Input and Output in JavaScript"
     },
     {
       "id": "6639bd2d8170d75242be99cb",
       "title": "Get User Input"
+    },
+    {
+      "id": "6606ca03a0aa92116bead97f",
+      "title": "Storing values with the Assignment Operator"
     },
     {
       "id": "6606ca2b9b8fc711a74602f5",

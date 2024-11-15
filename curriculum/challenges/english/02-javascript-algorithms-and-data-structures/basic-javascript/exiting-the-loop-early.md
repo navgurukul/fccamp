@@ -52,7 +52,7 @@ for (let i = 1; i <= 10; i++) {
 
 Is udaharan mein, jab `i` 5 ke barabar hota hai, tab loop ka execution ruk jata hai, aur console mein 1 se lekar 4 tak ke numbers print hote hain.
 
-# --question--
+# --questions--
 
 ## --text--
 

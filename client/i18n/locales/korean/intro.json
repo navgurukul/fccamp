@@ -228,8 +228,7 @@
       "basic-javascript": {
         "title": "Basic JavaScript",
         "intro": [
-          "JavaScript is a scripting language you can use to make web pages interactive. It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.",
-          "In this course, you'll learn fundamental programming concepts in JavaScript. You'll start with basic data structures like numbers and strings. Then you'll learn to work with arrays, objects, functions, loops, if/else statements, and more."
+          "Want to build cool websites and games? This fun Intro to Programming with JavaScript course is your key! we'll jump right in and make you a coding champion. Learn how computers talk (it's easier than those tricky emojis!), use special tools like Programmer Chefs, and become friends with JavaScript, the king of apps. By the end, you'll create your games and animations – maybe even the next big thing! Ready to code? Let's go!"
         ]
       },
       "es6": {
