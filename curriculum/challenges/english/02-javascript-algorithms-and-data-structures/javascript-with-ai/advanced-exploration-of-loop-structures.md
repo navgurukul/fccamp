@@ -18,7 +18,7 @@ You've asked great questions about loops so far! Now, it's time to deepen your u
 
 3. Submit Your Discoveries: Once you've applied what you've learned, share your final thoughts and understanding about loops by filling out the form linked below.
 
-# --question--
+# --questions--
 
 ## --text--
 

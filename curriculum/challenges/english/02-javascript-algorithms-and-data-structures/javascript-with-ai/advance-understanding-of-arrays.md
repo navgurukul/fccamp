@@ -20,7 +20,7 @@ Now, let's take a deeper dive into the concept of arrays. This challenge is all 
 
 3. Share Your Insights: Once you've implemented your learning, submit your final thoughts and understanding of arrays using the provided link. Your reflections and experiences will help solidify your mastery of this powerful tool.
 
-# --question--
+# --questions--
 
 ## --text--
 
