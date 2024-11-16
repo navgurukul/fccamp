@@ -33,7 +33,7 @@ Dusri taraf, ek interpreter source code ko line by line translate karta hai, aur
 Dono compilers aur interpreters software ka vikas aur execute karne mein mahatvapurn bhumika nibhate hain, jo programmers ko high-level languages mein code likhne aur use computers par prabhavi tareeke se chalane ki anumati dete hain.
 
 
-# --question--
+# --questions--
 
 ## --text--
 

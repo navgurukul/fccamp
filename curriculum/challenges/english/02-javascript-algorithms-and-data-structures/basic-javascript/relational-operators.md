@@ -45,7 +45,7 @@ Relational operators programming languages mein do values ke beech sambandh tula
 **Barabar nahi (!=):** Samjhein aap apne dost ki nayi bike lock ke combination set karne mein madad kar rahe hain. Combination 4, 1, aur 5 nahi honi chahiye. Aap galti se combination ko 4, 1, aur 5 set kar dete hain. Aap barabar nahi hone wale operator (!=) ka istemal karke dekh sakte hain ki kya combination sahi hai. Is case mein, 4, 1, 5 != correct combination (Sach), toh combination galat hai.
 
 ![Relational Operators](https://i.ibb.co/cN80jLV/Screenshot-from-2024-04-20-09-18-12.png)
-# --question--
+# --questions--
 
 ## --text--
 

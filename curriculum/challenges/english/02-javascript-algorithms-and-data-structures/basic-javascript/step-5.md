@@ -32,7 +32,7 @@ Programming sirf geeks ke liye nahi hai; ye un logon ke liye hai jo kuch naya ba
 
 Programming sikhna sikhata hai kaise sochna, kalpana karna, aur rachna karna. Ye duniya ko behtar samajhne mein madad karta hai aur jeevan ke liye ek mahan aadhar hai. Ye sirf computers ko batana nahi hai ki kya karna hai; balki ye sath mil kar kamaal ke kaam karne ke liye team ke saath communicate karna bhi hai.
 
-# --question--
+# --questions--
 
 ## --text--
 

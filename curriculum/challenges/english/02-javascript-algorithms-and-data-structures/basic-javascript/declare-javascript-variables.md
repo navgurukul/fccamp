@@ -1,5 +1,5 @@
 ---
-id: 671cce54b4f158821ef77b2c
+id: 6606c952f62155112026cbb0
 title: Declare JavaScript Variables
 challengeType: 1
 dashedName: declare-javascript-variables

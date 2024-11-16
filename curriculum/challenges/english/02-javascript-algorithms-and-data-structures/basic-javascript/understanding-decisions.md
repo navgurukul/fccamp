@@ -51,7 +51,7 @@ Sochiye `if` statement ko ek jaadui darwaza jise sirf tab hi khola jaata hai jab
 Toh, agle baar jab aap coding kar rahe hain aur aapko apne program ko faisle lene ki zarurat hai, toh in statements ko apne vishwaas ke saathi tools ke roop mein sochiye jo aapke code ko sahi raste par guide karne ke liye hain. 
 
 
-# --question--
+# --questions--
 
 ## --text--
 

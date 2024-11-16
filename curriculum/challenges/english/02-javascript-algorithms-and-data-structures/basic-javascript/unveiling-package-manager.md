@@ -23,7 +23,7 @@ Seedhe shabdon mein, npm yeh hai:
 - ek online repository open-source Node.js projects ke publish karne ke liye
 - ek command-line utility jo is repository ke saath interact karke packages install karne aur package versions aur dependencies manage karne mein madad karta hai.
 
-# --question--
+# --questions--
 
 ## --text--
 

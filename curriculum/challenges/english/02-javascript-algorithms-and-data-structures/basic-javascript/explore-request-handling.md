@@ -41,7 +41,7 @@ dashedName: explore-request-handling
 - Node.js intezar ko khatam karta hai aur bas agle request ke saath jaari rehta hai.
 - Node.js single-threaded, non-blocking, asynchronous programming chalata hai, jo ki bahut hi memory efficient hai.
 
-# --question--
+# --questions--
 
 ## --text--
 

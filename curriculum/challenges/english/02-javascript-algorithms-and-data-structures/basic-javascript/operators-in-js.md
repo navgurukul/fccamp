@@ -43,7 +43,7 @@ Yahan ek chhota sa overview hai JavaScript mein individual arithmetic operators 
 
 Ye operators mathematical calculations karne aur numerical values ko manipulate karne mein moolbhut hai JavaScript mein.
 
-# --question--
+# --questions--
 
 ## --text--
 

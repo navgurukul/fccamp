@@ -26,7 +26,7 @@ Computers instructions ko follow karne mein bahut acche hote hain, lekin khud so
 
 Coding sikhna mazedaar aur upyogi hai. Ye ek aise nayi bhasha sikhne jaisa hai jo aapko websites se lekar games tak ke kai cool cheezein banane ki anumati deti hai. Aur iske alawa, ye ek skill hai jo bhavishya mein kai dilchasp mauke kholti hai!
 
-# --question--
+# --questions--
 
 ## --text--
 

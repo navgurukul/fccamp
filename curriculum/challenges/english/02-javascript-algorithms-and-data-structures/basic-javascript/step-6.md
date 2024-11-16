@@ -28,7 +28,7 @@ Coding sikhate samay, aapko un basic concepts ko samajhna hoga jo sabhi programm
 
 Shuruwat karne ke liye koi sahi ya galat language nahi hai. Sabse mahatvapurn baat hai ki aap programming ke basic concepts ko samjhein, jo aapko kisi bhi situation mein code likhne mein madad karenge.
 
-# --question--
+# --questions--
 
 ## --text--
 

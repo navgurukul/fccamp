@@ -35,7 +35,7 @@ Ek pop-up aaya.
 Ek command execute hui
 Ek page khula
 
-# --question--
+# --questions--
 
 ## --text--
 

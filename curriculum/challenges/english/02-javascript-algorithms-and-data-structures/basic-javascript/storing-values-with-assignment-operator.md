@@ -1,5 +1,5 @@
 ---
-id: 671ccdd08c54ac7f2cfc9f18
+id: 6606ca03a0aa92116bead97f
 title: Storing values with the Assignment Operator
 challengeType: 1
 dashedName: storing-values-with-assignment-operator
