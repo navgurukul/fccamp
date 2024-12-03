@@ -58,6 +58,202 @@
     {
       "id": "6745614d72027a7f7c8546e9",
       "title": "Strengthen Understanding of Functions"
+    },
+    {
+      "id": "67466e4816e2e6e3efe80023",
+      "title": "zip"
+    },
+    {
+      "id": "674670da1cdfe3e7e9922e73",
+      "title": "JS"
+    },
+    {
+      "id": "67467bca43e34103c27b32c2",
+      "title": "Compare and Clarify Data Types"
+    },
+    {
+      "id": "67467befab007404086ee44e",
+      "title": "Concatenate and Display Strings"
+    },
+    {
+      "id": "67467c10bb6d0b04384249c0",
+      "title": "Identify Type Conversion Methods"
+    },
+    {
+      "id": "67467c2df49e0d048b379dff",
+      "title": "Decide Umbrella Usage"
+    },
+    {
+      "id": "674714d99cb23c3b5a704b33",
+      "title": "type1 Data type"
+    },
+    {
+      "id": "6747150527dbc13bc3f28ae4",
+      "title": "type1 oper"
+    },
+    {
+      "id": "6747153766480e3beb909485",
+      "title": "type1 switch"
+    },
+    {
+      "id": "674715a092b9283c2987effe",
+      "title": "type1 loops"
+    },
+    {
+      "id": "674715b94c90b63c512ce4c0",
+      "title": "type1 scopes"
+    },
+    {
+      "id": "674715db288b863c713490ea",
+      "title": "type1 func"
+    },
+    {
+      "id": "674715f1650e7d3c9141be36",
+      "title": "type1 obj"
+    },
+    {
+      "id": "67471614915dd73cb5d4e4f4",
+      "title": "type1 arr"
+    },
+    {
+      "id": "67471632101e383cd213c061",
+      "title": "type1 str"
+    },
+    {
+      "id": "6747165d4cfffb3cf43e3dd6",
+      "title": "type1 date"
+    },
+    {
+      "id": "67471680bf04443d1e06e06e",
+      "title": "type1 math"
+    },
+    {
+      "id": "67481a002b47af38b8f5c469",
+      "title": "type1 var"
+    },
+    {
+      "id": "67481a17556dc338dbfa8b8e",
+      "title": "type1 oper"
+    },
+    {
+      "id": "67481a2da77f5338fee00d75",
+      "title": "type1 switch"
+    },
+    {
+      "id": "67481a3f52673a391c1ee497",
+      "title": "type1 loop"
+    },
+    {
+      "id": "67481a58e5194d39383c5c0b",
+      "title": "type1 scope"
+    },
+    {
+      "id": "67481a640e3619395f5ff2a4",
+      "title": "type1 fun"
+    },
+    {
+      "id": "67481a719a8f3b397ac4b114",
+      "title": "type1 obj"
+    },
+    {
+      "id": "67481a7e5093aa3994b95a0f",
+      "title": "type1 arr"
+    },
+    {
+      "id": "67481a8a49354639af8f33b0",
+      "title": "type1 str"
+    },
+    {
+      "id": "67481a9994eaf139d082b7b2",
+      "title": "type1 date"
+    },
+    {
+      "id": "67481d26518f15417d8d91a1",
+      "title": "demo"
+    },
+    {
+      "id": "67481e1f0b7d28431289fa44",
+      "title": "type1 oper"
+    },
+    {
+      "id": "67481e4cb4ae6c4398d88ad0",
+      "title": "type1 switch"
+    },
+    {
+      "id": "67481e60c8adf043c26534ef",
+      "title": "type1 loop"
+    },
+    {
+      "id": "67481e726a705f43e24b7d29",
+      "title": "type1 scope"
+    },
+    {
+      "id": "67481e87fc3c824401f03a42",
+      "title": "type1 fun"
+    },
+    {
+      "id": "67481e96c965f04422309dd7",
+      "title": "type1 obj"
+    },
+    {
+      "id": "67481ea50f6b2b44412cf75e",
+      "title": "type1 arr"
+    },
+    {
+      "id": "67481eb214802244b65242c4",
+      "title": "type1 str"
+    },
+    {
+      "id": "67481ec262dcc144db3d5a3c",
+      "title": "type1 math"
+    },
+    {
+      "id": "674b52fd4a6f90914675f601",
+      "title": "var"
+    },
+    {
+      "id": "674b5362cdadb7917c8fec05",
+      "title": "Data Type"
+    },
+    {
+      "id": "674b5388ce65b291a4bc233a",
+      "title": "Operators"
+    },
+    {
+      "id": "674b53af022d4991cb96bea7",
+      "title": "Switch Case"
+    },
+    {
+      "id": "674b548795cabb94ffd3bafe",
+      "title": "Loops"
+    },
+    {
+      "id": "674b54a83feef295407439cd",
+      "title": "Scopes"
+    },
+    {
+      "id": "674b54cecadb079583138946",
+      "title": "Functions"
+    },
+    {
+      "id": "674b54e5ade51295b45a2cc1",
+      "title": "Objects"
+    },
+    {
+      "id": "674b5504aa043f95d0f06a42",
+      "title": "Arrays"
+    },
+    {
+      "id": "674b551826fdcf9619a6f6e4",
+      "title": "Strings"
+    },
+    {
+      "id": "674b553ca16e729637bb28af",
+      "title": "Date Objects"
+    },
+    {
+      "id": "674b555a3539ef96826d5643",
+      "title": "Math Object"
     }
   ],
   "helpCategory": "JavaScript"
