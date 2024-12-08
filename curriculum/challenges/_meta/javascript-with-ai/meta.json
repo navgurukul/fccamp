@@ -254,6 +254,142 @@
     {
       "id": "674b555a3539ef96826d5643",
       "title": "Math Object"
+    },
+    {
+      "id": "67542f94ddb36571b423b87d",
+      "title": "Driving Eligibility Check"
+    },
+    {
+      "id": "67542fb29f51f57367dc7cd2",
+      "title": "Party Entry Check"
+    },
+    {
+      "id": "67542fdb78610b738a01b62a",
+      "title": "Logical Operators Precedence"
+    },
+    {
+      "id": "67543025063c7f741cac607e",
+      "title": "Odd-Even Index Swap"
+    },
+    {
+      "id": "6754304d21779d7445490b1a",
+      "title": "Collatz Sequence Generator"
+    },
+    {
+      "id": "675430cce5ec2c746da638bc",
+      "title": "Circular Array Rotation"
+    },
+    {
+      "id": "6754319594cb16756e638f62",
+      "title": "Skip Perfect Squares"
+    },
+    {
+      "id": "675431b0013bfb76145d8bd5",
+      "title": "Print Prime Numbers"
+    },
+    {
+      "id": "67543203521165763c06d85a",
+      "title": "Traffic Light Response"
+    },
+    {
+      "id": "675432474711c6768f52d67e",
+      "title": "Multiply array Elements"
+    },
+    {
+      "id": "675432e55ba97f76b33e2d3a",
+      "title": "Simple Calculator Function"
+    },
+    {
+      "id": "67543315a0f4197822b69ef0",
+      "title": "Flatten Nested Array"
+    },
+    {
+      "id": "6754334ab3c1b278468adc18",
+      "title": "Person Object Creator"
+    },
+    {
+      "id": "67543370f9bb22786d6f0692",
+      "title": "Enhanced Person Object"
+    },
+    {
+      "id": "6754339ea79377788eeeeb02",
+      "title": "Birthday Celebration Method"
+    },
+    {
+      "id": "675433bf0e3e1478af660590",
+      "title": "List Person Details"
+    },
+    {
+      "id": "675433d8dc140478e1d73240",
+      "title": "Add Friend Method"
+    },
+    {
+      "id": "675433f3c26c087905e22ced",
+      "title": "Shopping List Manager"
+    },
+    {
+      "id": "675434137f447d7926cdaca5",
+      "title": "Advanced Shoopping List"
+    },
+    {
+      "id": "6754343d48db477949135b57",
+      "title": "Enhanced Shopping List"
+    },
+    {
+      "id": "67543473508572797156f17f",
+      "title": "Deatiled Shopping List"
+    },
+    {
+      "id": "675434b92364017a9764d618",
+      "title": "Shopping List Enhancements"
+    },
+    {
+      "id": "675434d476f9b77ab6afecee",
+      "title": "String Transformer"
+    },
+    {
+      "id": "675434ef1448267ad6ff9457",
+      "title": "Capitalize Words"
+    },
+    {
+      "id": "675435227cdba57af28d69ed",
+      "title": "Palindrome Checker"
+    },
+    {
+      "id": "67543537a33d657b1b9aa55f",
+      "title": "String Compressor"
+    },
+    {
+      "id": "67543567604c727b38807d19",
+      "title": "Caeser Cipher Encoder"
+    },
+    {
+      "id": "67543588baf80a7b6069c132",
+      "title": "Date Adder"
+    },
+    {
+      "id": "675435ad51513d7b82408d5a",
+      "title": "Weekend Checker"
+    },
+    {
+      "id": "675435c970bc547ba287b9d4",
+      "title": "Days Until Birthday"
+    },
+    {
+      "id": "675435e338706a7bc6911016",
+      "title": "Custom Date Formatter"
+    },
+    {
+      "id": "6754363dcd601a7c0c8bfbe7",
+      "title": "Calculating Circle Circumference"
+    },
+    {
+      "id": "67543664e6f1637c38f64936",
+      "title": "Calculating distance Between Points"
+    },
+    {
+      "id": "6754369ae41dc17c5fbb756c",
+      "title": "Compare Dice Results"
     }
   ],
   "helpCategory": "JavaScript"

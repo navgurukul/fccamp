@@ -11,7 +11,7 @@ dashedName: compare-and-clarify-data-types
 In this challenge, we’ll compare variables of different types in JavaScript to understand how type coercion affects results. We’ll also explore the difference between null and undefined to clarify their roles in JavaScript.
 <br>
 **Challenge:**
-Compare variables of different types and explain the results. Additionally, understand the distinction between null and undefined.
+Compare variables of different types and explain the results.
 
 # --instructions--
 
@@ -21,19 +21,49 @@ Prompt: What does it mean to 'identify the number's sign' in this context?
 
 # --hints--
 
-`checkDataType(67)` should return `number`
+You should use `==`  in your code to check Data Type.
 
 ```js
-assert(checkDataType(67)==="number")
+assert(code.match(/==/g))
+```
 
+You should use `===`  in your code to check Data Type.
+
+```js
+assert(code.match(/===/g))
+```
+
+`isEqual(10,10)` should return `[true,true]`
+
+```js
+assert(isEqual(10,10)===["true","true"])
+```
+
+`isEqual(10,10)` should return `true` for `a===b`
+
+```js
+assert(isEqual(10,10)==="true")
+```
+
+`isEqual(10,"10")` should return `true` for `a===b`
+
+```js
+assert(isEqual(10,"10")==="true")
+```
+
+`isEqual(10,10)` should return `false` for `a===b`
+
+```js
+assert(isEqual(10,"10")==="false")
 ```
 
 # --seed--
 ## --seed-contents--
 
 ```js
-function checkDataType(a) {
-    //  Only change code below this line
+function isEqual(a,b) {
+	//  Only change code below this line
+	return [ans,ans1];
 }
 
 ```
@@ -41,9 +71,10 @@ function checkDataType(a) {
 # --solutions--
 
 ```js
-function checkDataType(a) {
-    let ans=typeof(a);
-    return ans;
+function isEqual(a,b) {
+		let ans=(a==b);
+		let ans1=(a===b);
+		return [ans,ans1];
 }
-checkDataType(age)
+isEqual(10,10)
 ```
