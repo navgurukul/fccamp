@@ -3,7 +3,7 @@ id: 67455e18a4e2887d221cfea9
 videoId: fozwNnFunlo?si=P_WzMSw5gI_x2sEe
 title: Deep Dive into Strings
 challengeType: 11
-dashedName: deef-dive-into-strings
+dashedName: deep-dive-into-strings
 ---
 
 # --description--
