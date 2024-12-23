@@ -70,8 +70,7 @@ assert(checkDataType()==="undefined")
 function checkDataType(a) {
     //  Only change code below this line
 }
-checkDataType(age);
-
+checkDataType();
 ```
 
 # --solutions--
@@ -81,5 +80,5 @@ function checkDataType(a) {
     let ans=typeof(a);
     return ans;
 }
-checkDataType(age)
+checkDataType(a)
 ```

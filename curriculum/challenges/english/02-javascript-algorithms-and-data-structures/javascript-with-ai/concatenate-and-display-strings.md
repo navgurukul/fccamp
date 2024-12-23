@@ -21,21 +21,52 @@ Prompt: What does it mean to 'identify the number's sign' in this context?
 
 # --hints--
 
-Test 1
+You should use `+` operator in your code to concatenate strings.
 
 ```js
+assert(/\+/.test(__helpers.removeJSComments(code)));
+```
 
+`concatString("Hello"+"World")` should return `HelloWorld"
+
+```js
+assert(concatString("Hello","World")==="HelloWorld")
+```
+
+`concatString("Hello"+"  World")` should return `Hello  World"
+
+```js
+assert(concatString("Hello","  World")==="Hello  World")
+```
+
+`concatString("Hello"+"world")` should return `Helloworld"
+
+```js
+assert(concatString("Hello","world")==="Helloworld")
+```
+
+`concatString("Hello"+"123")` should return `Hello123"
+
+```js
+assert(concatString("Hello","123")==="Hello123")
 ```
 
 # --seed--
 ## --seed-contents--
 
 ```js
-
+function concatString(a,b) {
+	//  Only change code below this line
+	return
+}
 ```
 
 # --solutions--
 
 ```js
-
+function concatString(a,b) {
+		let ans= a+b
+		return ans;
+}
+concatString(a,b)
 ```

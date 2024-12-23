@@ -10,6 +10,7 @@ dashedName: compare-and-clarify-data-types
 **Introduction:**
 In this challenge, we’ll compare variables of different types in JavaScript to understand how type coercion affects results. We’ll also explore the difference between null and undefined to clarify their roles in JavaScript.
 <br>
+
 **Challenge:**
 Compare variables of different types and explain the results.
 
@@ -33,28 +34,28 @@ You should use `===`  in your code to check Data Type.
 assert(code.match(/===/g))
 ```
 
-`isEqual(10,10)` should return `[true,true]`
+`isEqual(10,10)` should return `true` for `a==b`
 
 ```js
-assert(isEqual(10,10)===["true","true"])
+assert(isEqual(10,10)===true)
 ```
 
-`isEqual(10,10)` should return `true` for `a===b`
+`isStrictEqual(10,10)` should return `true` for `a===b`
 
 ```js
-assert(isEqual(10,10)==="true")
+assert(isStrictEqual(10,10)===true)
 ```
 
-`isEqual(10,"10")` should return `true` for `a===b`
+`isEqual(10,"10")` should return `true` for `a==b`
 
 ```js
-assert(isEqual(10,"10")==="true")
+assert(isEqual(10,"10")===true)
 ```
 
-`isEqual(10,10)` should return `false` for `a===b`
+`isStrictEqual(10,"10")` should return `false` for `a===b`
 
 ```js
-assert(isEqual(10,"10")==="false")
+assert(isStrictEqual(10,"10")===false)
 ```
 
 # --seed--
@@ -63,9 +64,12 @@ assert(isEqual(10,"10")==="false")
 ```js
 function isEqual(a,b) {
 	//  Only change code below this line
-	return [ans,ans1];
+	return
 }
-
+function isStrictEqual(a,b) {
+	//  Only change code below this line
+	return
+}
 ```
 
 # --solutions--
@@ -73,8 +77,12 @@ function isEqual(a,b) {
 ```js
 function isEqual(a,b) {
 		let ans=(a==b);
+		return ans;
+}
+function isStrictEqual(a,b) {
 		let ans1=(a===b);
-		return [ans,ans1];
+		return ans1;
 }
 isEqual(10,10)
+isStrictEqual(10,10)
 ```

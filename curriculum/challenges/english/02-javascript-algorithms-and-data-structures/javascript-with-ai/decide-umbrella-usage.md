@@ -21,21 +21,55 @@ Prompt: What does it mean to 'identify the number's sign' in this context?
 
 # --hints--
 
-Test 1
+`umbrellaUsage(true,true)` should return `You don't need an umbrella`
 
 ```js
+assert(umbrellaUsage(true,true)==="You don't need an umbrella")
+```
 
+`umbrellaUsage(true,false)` should return `You should bring an umbrella`
+
+```js
+assert(umbrellaUsage(true,false)==="You should bring an umbrella")
+```
+
+`umbrellaUsage(false,true)` should return `You don't need an umbrella`
+
+```js
+assert(umbrellaUsage(false,true)==="You don't need an umbrella")
+```
+
+`umbrellaUsage(false,false)` should return `You don't need an umbrella`
+
+```js
+assert(umbrellaUsage(false,false)==="You don't need an umbrella")
 ```
 
 # --seed--
 ## --seed-contents--
 
 ```js
-
+function umbrellaUsage(isRaining,isWeekend) {
+	//  Only change code below this line
+	return
+}
 ```
 
 # --solutions--
 
 ```js
-
+function umbrellaUsage(isRaining,isWeekend) {
+  let ans;
+  if (isRaining===true){
+    if (isWeekend!==true){
+    ans = "You should bring an umbrella";
+    }else{
+    ans = "You don't need an umbrella";
+    }
+  }else{
+    ans = "You don't need an umbrella";
+  }
+	return ans;
+}
+umbrellaUsage(isRaining,isWeekend)
 ```

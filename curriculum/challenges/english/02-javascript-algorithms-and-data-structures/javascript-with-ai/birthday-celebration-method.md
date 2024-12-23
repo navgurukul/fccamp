@@ -7,18 +7,36 @@ dashedName: birthday-celebration-method
 
 # --description--
 
-Birthday Celebration Method description.
+**Introduction:**
+Enhancing object methods to manipulate properties dynamically is essential for interactive applications. This task involves adding a method to update an object's property in response to an event.
+<br>
+**Challenge:**
+Extend the createPersonObject function to include a celebrateBirthday method. This method should increment the person’s age by 1 using this keyword to refer to the object's properties.
 
 # --instructions--
 
-Birthday Celebration Method instructions.
+Click on this <a href = "https://cs50.ai/chat">Link</a>  to Go to CS50 AI 
+And use this prompt prompt __________
+Prompt: What does it mean to 'identify the number's sign' in this context?
 
 # --hints--
 
-Test 1
+You should use `typeof()`  in your code to check Data Type.
 
 ```js
+assert(code.match(/typeof/g));
+```
 
+`checkDataType(67)` should return `number`
+
+```js
+assert(checkDataType(67)==="number")
+```
+
+`checkDataType("Hello")` should return `string`
+
+```js
+assert(checkDataType("Hello")==="string")
 ```
 
 # --seed--
