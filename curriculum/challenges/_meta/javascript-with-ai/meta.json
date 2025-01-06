@@ -306,6 +306,14 @@
     {
       "id": "6754369ae41dc17c5fbb756c",
       "title": "Compare Dice Results"
+    },
+    {
+      "id": "677bbe94287556b6d3eedfda",
+      "title": "Triangle Type Checker"
+    },
+    {
+      "id": "677bc4d1dfed46c39bea6754",
+      "title": "Price Discount Calculator"
     }
   ],
   "helpCategory": "JavaScript"

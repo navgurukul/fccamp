@@ -20,48 +20,105 @@ And use this prompt prompt __________
 Prompt: What does it mean to 'identify the number's sign' in this context?
 
 **Example:**
-<br>
-Input:
+
+**Input:**
 <br>
 let num1 = 10;
 <br>
 let num2 = 5
 <br>
-let Oper = +
+let Oper = "+"
 <br>
-Output:
+**Output:**
 <br>
 15
 
 # --hints--
 
-You should use `typeof()`  in your code to check Data Type.
+`calculate(20,40,"*")` should return `800`
 
 ```js
-assert(code.match(/typeof/g));
+assert(calculate(20,40,"*")===800)
 ```
 
-`checkDataType(67)` should return `number`
+`calculate(25,25,"-")` should return `0`
 
 ```js
-assert(checkDataType(67)==="number")
+assert(calculate(25,25,"-")===0)
 ```
 
-`checkDataType("Hello")` should return `string`
+`calculate(20,33,"+")` should return `53`
 
 ```js
-assert(checkDataType("Hello")==="string")
+assert(calculate(20,33,"+")===53)
+```
+
+`calculate(10,20,"/")` should return `0.5`
+
+```js
+assert(calculate(10,20,"/")===0.5)
+```
+
+`calculate(2,3,"-")` should return `-1`
+
+```js
+assert(calculate(2,3,"-")===-1)
+```
+
+`calculate(83,20,"/")` should return `4.15`
+
+```js
+assert(calculate(83,20,"/")===4.15)
+```
+
+`calculate(0,20,"/")` should return `0`
+
+```js
+assert(calculate(0,20,"/")===0)
+```
+
+`calculate(20,83,"&&")` should return `Error: Invalid operator`
+
+```js
+assert(calculate(20,83,"&&")==="Error: Invalid operator")
+```
+
+`calculate(20,0,"/")` should return `Error: Cannot divide by zero`
+
+```js
+assert(calculate(20,0,"/")==="Error: Cannot divide by zero")
 ```
 
 # --seed--
 ## --seed-contents--
 
 ```js
-
+const calculate = (num1,num2, operator) => {
+    //  Only change code below this line
+	return
+}
 ```
 
 # --solutions--
 
 ```js
-
+const calculate = (num1, num2, operator) => {
+  switch (operator) {
+    case '+':
+      return num1 + num2;
+    case '-':
+      return num1 - num2;
+    case '*':
+      return num1 * num2;
+    case '/':
+        if (num2!==0){
+            return (num1/num2);
+        }else{
+            return "Error: Cannot divide by zero";
+        }
+    default:
+      return "Error: Invalid operator";
+  }
+}
+calculate(num1, num2, operator)
 ```

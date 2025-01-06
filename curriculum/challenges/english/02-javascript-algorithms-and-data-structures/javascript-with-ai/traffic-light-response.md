@@ -70,7 +70,7 @@ assert(trafficSignal(30,"Green")==="invalid input")
 
 ```js
 function trafficSignal(num,trafficLightColor) {
-    //  Only change code below this line
+  //  Only change code below this line
 	return
 }
 ```

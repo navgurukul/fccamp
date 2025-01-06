@@ -10,8 +10,22 @@ dashedName: weekend-checker
 **Introduction:**
 Determining if a given date falls on a weekend is useful for scheduling and time management. This task involves creating a function to identify weekend dates.
 <br>
+
 **Challenge:**
 Implement the function isWeekend(date) that takes a Date object as input and returns true if the date is a Saturday or Sunday; otherwise, return false.
+
+*Note*
+Use `new Date()` to create a new date object with current date. <br>
+
+**Example:**
+<br>
+Input
+<br>
+const today = new Date('2023-10-07'); // Saturday
+<br>
+Output
+<br>
+true
 
 # --instructions--
 
@@ -21,33 +35,61 @@ Prompt: What does it mean to 'identify the number's sign' in this context?
 
 # --hints--
 
-You should use `typeof()`  in your code to check Data Type.
+You should use `new Date()` in your code.
 
 ```js
-assert(code.match(/typeof/g));
+assert(code.match(/new Date()/g));
 ```
 
-`checkDataType(67)` should return `number`
+`isWeekend("2023-10-05")` should return `false`
 
 ```js
-assert(checkDataType(67)==="number")
+assert(isWeekend("2023-10-05")===false)
 ```
 
-`checkDataType("Hello")` should return `string`
+`isWeekend("2023-11-06")` should return `false`
 
 ```js
-assert(checkDataType("Hello")==="string")
+assert(isWeekend("2023-11-06")===false)
+```
+
+`isWeekend("2020-10-07")` should return `false`
+
+```js
+assert(isWeekend("2020-10-07")===false)
+```
+
+`isWeekend("2003-10-11")` should return `true`
+
+```js
+assert(isWeekend("2003-10-11")===true)
+```
+
+`isWeekend("2023-12-31")` should return `true`
+
+```js
+assert(isWeekend("2023-12-31")===true)
 ```
 
 # --seed--
 ## --seed-contents--
 
 ```js
-
+function isWeekend(date) {
+  // Only change code below this line
+	return
+}
 ```
 
 # --solutions--
 
 ```js
-
+function isWeekend(date) {
+    let day = new Date(date);
+    // Get the day of the week: 0 (Sunday) to 6 (Saturday)
+    const dayOfWeek = day.getDay();
+    // Return true if the day is Saturday (6) or Sunday (0)
+    return dayOfWeek === 0 || dayOfWeek === 6;
+}
+isWeekend(date)
 ```
