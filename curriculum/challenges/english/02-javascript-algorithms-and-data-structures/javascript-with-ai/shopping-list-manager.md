@@ -40,16 +40,34 @@ Prompt: What does it mean to 'identify the number's sign' in this context?
 
 # --hints--
 
-You should use `.push()`  in your code to check Data Type.
+You should use `.push()`  in your code.
 
 ```js
 assert(code.match(/.push()/g));
 ```
 
-`addItem({ name: "Apples", quantity: 2 }),addItem({ name: "Bananas", quantity: 3 })` should add the item to the shopping list:
+`addItem([],{ name: "Apples", quantity: 2 }),addItem([{ name: "Apples", quantity: 2 }],{name: "Bananas", quantity: 3 })` should add the item to the shopping list `[{ name: "Apples", quantity: 2 },{ name: "Bananas", quantity: 3 }]`
 
 ```js
-assert(JSON.stringify(shoppingList1) === JSON.stringify([{ name: "Apples", quantity: 2 }, { name: "Bananas", quantity: 3 }]));
+assert.deepEqual(addItem([],{ name: "Apples", quantity: 2 }),addItem([{ name: "Apples", quantity: 2 }],{name: "Bananas", quantity: 3 }),[{ name: "Apples", quantity: 2 },{ name: "Bananas", quantity: 3 }])
+```
+
+`addItem([],{ name: "Apples", quantity: 30 })` should add the item to the shopping list `[{ name: "Apples", quantity: 30 }]`
+
+```js
+assert.deepEqual(addItem([],{ name: "Apples", quantity: 30 }),[{ name: "Apples", quantity: 30 }])
+```
+
+`addItem(shoppingList,{ name: "Apples", quantity: 30 })` should add the item to the shopping list `[{ name: "Apples", quantity: 30 }]`
+
+```js
+assert.deepEqual(addItem(shoppingList,{ name: "Apples", quantity: 30 }),[{ name: "Apples", quantity: 30 }])
+```
+
+`addItem([],{ name: "Apples", quantity: 5 }),addItem([{ name: "Apples", quantity: 5 }],{name: "Bananas", quantity: 3 }),addItem([{ name: "Apples", quantity: 5 },{name: "Bananas", quantity: 3 }],{name: "Cherries", quantity: 3})` should add the item to the shopping list `[{ name: "Apples", quantity: 5 },{ name: "Bananas", quantity: 3 },{name: "Cherries", quantity: 3}]`
+
+```js
+assert.deepEqual(addItem([],{ name: "Apples", quantity: 5 }),addItem([{ name: "Apples", quantity: 5 }],{name: "Bananas", quantity: 3 }),addItem([{ name: "Apples", quantity: 5 },{name: "Bananas", quantity: 3 }],{name: "Cherries", quantity: 3}),[{ name: "Apples", quantity: 5 },{ name: "Bananas", quantity: 3 },{name: "Cherries", quantity: 3}])
 ```
 
 # --seed--
@@ -64,7 +82,7 @@ function addItem(shoppingList,item){
 	return
 }
 const shoppingList = createShoppingList();
-addItem(shoppingList, { name: "Oranges" }); // Change this line
+addItem(shoppingList, { name: "Oranges", quantity: 3}); // Change this line
 ```
 
 # --solutions--
@@ -96,4 +114,5 @@ function addItem(shoppingList, item) {
     shoppingList.push(item);
 }
 const shoppingList = createShoppingList();
+addItem(shoppingList, { name: "Oranges", quantity: 3});
 ```

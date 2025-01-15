@@ -10,6 +10,7 @@ dashedName: add-friend-method
 **Introduction:**
 Managing relationships between objects is crucial for creating interactive systems. This task involves enhancing an object with a method to maintain a list of friends.
 <br>
+
 **Challenge:**
 Extend the createPersonObject function to include an addFriend method. This method should accept another person object and add it to a friends array property. If the friends array doesn’t exist, it should be created.
 
@@ -21,33 +22,59 @@ Prompt: What does it mean to 'identify the number's sign' in this context?
 
 # --hints--
 
-You should use `typeof()`  in your code to check Data Type.
+You should use `this.`  in your code.
 
 ```js
-assert(code.match(/typeof/g));
+assert(code.match(/this./g));
 ```
 
-`checkDataType(67)` should return `number`
+`createPersonObject("bablu", 23, { street: "1234", city: "delhi" }).addFriend("babli", 23, { street: "1234", city: "old delhi" })` should return `[{ name: "babli", age: 23, address: { street: "1234", city: "old delhi" }}]`
 
 ```js
-assert(checkDataType(67)==="number")
-```
-
-`checkDataType("Hello")` should return `string`
-
-```js
-assert(checkDataType("Hello")==="string")
+assert.deepEqual(createPersonObject("bablu", 23, { street: "1234", city: "delhi" }).addFriend("babli", 23, { street: "1234", city: "old delhi" }),[{ name: "babli", age: 23, address: { street: "1234", city: "old delhi" }}])
 ```
 
 # --seed--
 ## --seed-contents--
 
 ```js
-
+function createPersonObject(name, age, address) {
+  //Only change code below this line
+  return
+}
+const person1 = createPersonObject("bablu", 23, { street: "1234", city: "delhi" }); // Change this line
+const person2 = createPersonObject("babli", 23, { street: "1234", city: "old delhi" }) // Change this line
+person1.addFriend(person2)
+console.log(person1.friends);
 ```
 
 # --solutions--
 
 ```js
-
+function createPersonObject(name, age, address) {
+  return {
+    name: name,
+    age: age,
+    address: address,
+    addFriend: function (friend) {
+      if (typeof friend === "object" && friend.name && friend.age) {
+        if (this.friend = this.friend ?? []) { // Check if friends is null or undefined and assign default value []
+        // if (this.friends === undefined) { // Check if friends is undefined
+          this.friends = []; // Initialize friends array
+        }
+        this.friends.push({ // Add the friend to the list
+        name: friend.name,
+        age: friend.age,
+        address: friend.address,
+      })
+      } else {
+        console.error("Invalid friend object");
+      }
+    },
+  }
+}
+const person1 = createPersonObject("bablu", 23, { street: "1234", city: "delhi" }); // Change this line
+const person2 = createPersonObject("babli", 23, { street: "1234", city: "old delhi" }) // Change this line
+person1.addFriend(person2)
+console.log(person1.friends);
 ```

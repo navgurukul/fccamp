@@ -70,7 +70,7 @@ const flattenArray = (arr) => {
     const result = [];
     //  Only change code below this line
     return result;
-};
+}
 ```
 
 # --solutions--

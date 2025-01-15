@@ -109,6 +109,7 @@ customDateFormatter("2023-10-05", "hh:mm A")
 
 ```js
 function customDateFormatter(date, formatString) {
+  date = new Date();
   const day = date.getDate() < 10 ? '0' + date.getDate() : date.getDate(); // DD
   const month = (date.getMonth() + 1) < 10 ? '0' + (date.getMonth() + 1) : (date.getMonth() + 1); // MM
   const year = date.getFullYear(); // YYYY

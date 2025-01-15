@@ -85,7 +85,6 @@ function updatedString(str, originalChar, replacedChar) {
 // Function to update the string
 function updatedString(str, originalChar, replacedChar) {
     // Step 1: Trim leading and trailing spaces
-    const trimmedString = str.trim();
     let result = "";
 	const trimmedString = str.trim();
     for (let i = 0; i < (trimmedString.length); i++) {

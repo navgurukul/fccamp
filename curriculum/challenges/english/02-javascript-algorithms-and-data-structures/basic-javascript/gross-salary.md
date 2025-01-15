@@ -64,10 +64,10 @@ And use this prompt.
 assert(calculateGrossSalary(17000)===36550);
 ```
 
-`calculateGrossSalary(basicSalary)` should be completed with correct implementation.
+`calculateGrossSalary(8000)` should return `16000`.
 
 ```js
-assert(calculateGrossSalary(8000)===14400):
+assert(calculateGrossSalary(8000)===16000);
 ```
 
 # --seed--

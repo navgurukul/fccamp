@@ -68,10 +68,6 @@
       "title": "Concatenate and Display Strings"
     },
     {
-      "id": "67467c10bb6d0b04384249c0",
-      "title": "Identify Type Conversion Methods"
-    },
-    {
       "id": "67467c2df49e0d048b379dff",
       "title": "Decide Umbrella Usage"
     },
@@ -178,10 +174,6 @@
     {
       "id": "67542fb29f51f57367dc7cd2",
       "title": "Party Entry Check"
-    },
-    {
-      "id": "67542fdb78610b738a01b62a",
-      "title": "Logical Operators Precedence"
     },
     {
       "id": "67543025063c7f741cac607e",
@@ -314,6 +306,14 @@
     {
       "id": "677bc4d1dfed46c39bea6754",
       "title": "Price Discount Calculator"
+    },
+    {
+      "id": "67870e1f40860e1c72b78821",
+      "title": "Logical Operator Precedence"
+    },
+    {
+      "id": "67870ea22e0e551d34fc65c3",
+      "title": "Identify Type Conversion Methods"
     }
   ],
   "helpCategory": "JavaScript"
