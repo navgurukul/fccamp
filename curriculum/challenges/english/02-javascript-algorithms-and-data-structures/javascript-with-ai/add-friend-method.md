@@ -28,10 +28,10 @@ You should use `this.`  in your code.
 assert(code.match(/this./g));
 ```
 
-`createPersonObject("bablu", 23, { street: "1234", city: "delhi" }).addFriend("babli", 23, { street: "1234", city: "old delhi" })` should return `[{ name: "babli", age: 23, address: { street: "1234", city: "old delhi" }}]`
+`person1.friends` should return `[{ name: "babli", age: 23, address: { street: "1234", city: "old delhi" }}]`
 
 ```js
-assert.deepEqual(createPersonObject("bablu", 23, { street: "1234", city: "delhi" }).addFriend("babli", 23, { street: "1234", city: "old delhi" }),[{ name: "babli", age: 23, address: { street: "1234", city: "old delhi" }}])
+assert.deepEqual(person1.friends, [{ name: "babli", age: 23, address: { street: "1234", city: "old delhi" }}])
 ```
 
 # --seed--

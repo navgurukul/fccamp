@@ -82,7 +82,6 @@ function updatedString(str, originalChar, replacedChar) {
 # --solutions--
 
 ```js
-// Function to update the string
 function updatedString(str, originalChar, replacedChar) {
     // Step 1: Trim leading and trailing spaces
     let result = "";
@@ -96,5 +95,4 @@ function updatedString(str, originalChar, replacedChar) {
     }
     return result;
 }
-updatedString(str, originalChar,replacedChar);
 ```

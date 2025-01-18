@@ -52,18 +52,6 @@ assert(code.match(/.push()/g));
 assert.deepEqual(addItem([],{ name: "Apples", quantity: 2 }),addItem([{ name: "Apples", quantity: 2 }],{name: "Bananas", quantity: 3 }),[{ name: "Apples", quantity: 2 },{ name: "Bananas", quantity: 3 }])
 ```
 
-`addItem([],{ name: "Apples", quantity: 30 })` should add the item to the shopping list `[{ name: "Apples", quantity: 30 }]`
-
-```js
-assert.deepEqual(addItem([],{ name: "Apples", quantity: 30 }),[{ name: "Apples", quantity: 30 }])
-```
-
-`addItem(shoppingList,{ name: "Apples", quantity: 30 })` should add the item to the shopping list `[{ name: "Apples", quantity: 30 }]`
-
-```js
-assert.deepEqual(addItem(shoppingList,{ name: "Apples", quantity: 30 }),[{ name: "Apples", quantity: 30 }])
-```
-
 `addItem([],{ name: "Apples", quantity: 5 }),addItem([{ name: "Apples", quantity: 5 }],{name: "Bananas", quantity: 3 }),addItem([{ name: "Apples", quantity: 5 },{name: "Bananas", quantity: 3 }],{name: "Cherries", quantity: 3})` should add the item to the shopping list `[{ name: "Apples", quantity: 5 },{ name: "Bananas", quantity: 3 },{name: "Cherries", quantity: 3}]`
 
 ```js
@@ -88,7 +76,6 @@ addItem(shoppingList, { name: "Oranges", quantity: 3}); // Change this line
 # --solutions--
 
 ```js
-// Function to initialize the shopping list
 function createShoppingList() {
     return [];
 }

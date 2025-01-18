@@ -11,6 +11,7 @@ dashedName: exploring-math-object
 To explore about Math Object in JavaScript.
 <br>
 <br>
+
 **Introduction:**
 The Math object in JavaScript is like a versatile toolbox, packed with built-in methods that help us tackle a wide range of mathematical tasks. Whether you need to round numbers, find the maximum or minimum value in a list, or generate random numbers, the Math object has you covered.
 
