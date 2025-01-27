@@ -36,7 +36,7 @@ console.log(person.introduce()); // "Hi, I'm John Doe, 30 years old, living at 9
 
 # --instructions--
 
-Click on this <a href = "https://cs50.ai/chat">Link</a>  to Go to CS50 AI 
+Click on this <a target="_blank" href = "https://cs50.ai/chat">Link</a>  to Go to CS50 AI 
 And use this prompt prompt __________
 Prompt: What does it mean to 'identify the number's sign' in this context?
 

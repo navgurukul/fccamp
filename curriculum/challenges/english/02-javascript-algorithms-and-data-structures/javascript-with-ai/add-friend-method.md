@@ -16,7 +16,7 @@ Extend the createPersonObject function to include an addFriend method. This meth
 
 # --instructions--
 
-Click on this <a href = "https://cs50.ai/chat">Link</a>  to Go to CS50 AI 
+Click on this <a href = "https://cs50.ai/chat" target="_blank" rel="noopener noreferrer">Link</a>  to Go to CS50 AI 
 And use this prompt prompt __________
 Prompt: What does it mean to 'identify the number's sign' in this context?
 

@@ -16,9 +16,9 @@ You’ve asked great questions about switch cases so far! Now, it’s time to de
 
 **Instructions :**
 
-1. Explore the <span style="color:blue;">[Document](https://docs.google.com/document/d/1PuwigufnqvVH2wi3jIKwRZF6aozzRc-Fop7MbhUS0i4/edit?usp=sharing)</span> : Dive into the linked document and absorb the insights it offers about the Operators. Pay close attention to the examples and explanations that will help you better understand how to use the Operators in your code.
+1. Explore the <a target="_blank" href="https://docs.google.com/document/d/1PuwigufnqvVH2wi3jIKwRZF6aozzRc-Fop7MbhUS0i4/edit?usp=sharing" style="color:blue;">Document</a> : Dive into the linked document and absorb the insights it offers about the Operators. Pay close attention to the examples and explanations that will help you better understand how to use the Operators in your code.
 2. Implement Your Learning: Implement the new insights you’ve gained from the document in your own code.
-3. Share Your Insights: Once you’ve implemented your learning, and <span style="color:blue;">[Submit your new ideas in this link](https://forms.gle/29q9d8LJqMwbcyzV9)</span>
+3. Share Your Insights: Once you’ve implemented your learning, and <a target="_blank" href="https://forms.gle/29q9d8LJqMwbcyzV9" style="color:blue;">Submit your new ideas in this link</a>
 4. Your reflections will help solidify your understanding and contribute to your mastery of Switch Case.
 
 # --questions--

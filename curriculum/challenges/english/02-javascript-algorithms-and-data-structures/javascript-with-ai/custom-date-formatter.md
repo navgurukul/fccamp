@@ -39,7 +39,7 @@ const formattedDate2 = customDateFormatter(today, formatString2); // "10:30 PM"
 
 # --instructions--
 
-Click on this <a href = "https://cs50.ai/chat">Link</a>  to Go to CS50 AI 
+Click on this <a target="_blank" href="https://cs50.ai/chat">Link</a>  to Go to CS50 AI 
 And use this prompt prompt __________
 Prompt: What does it mean to 'identify the number's sign' in this context?
 

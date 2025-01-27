@@ -39,7 +39,7 @@ Identifying errors such as incorrect formats when parsing date strings and impro
 
 # --instructions--
 
-Do a research on Date Object topic with your coding partner <span style="color:blue;">([ChatGPT AI](https://chatgpt.com/))</span> and submit your <span style="color:blue;">[link](https://forms.gle/Br944QzCquXEAbrb8)</span> here in this form.
+Do a research on Date Object topic with your coding partner <a target="_blank" href="https://chatgpt.com/" style="color:blue;">ChatGPT AI</a> and submit your <a target="_blank" href="https://forms.gle/Br944QzCquXEAbrb8" style="color:blue;">link</a> here in this form.
 
 # --hints--
 

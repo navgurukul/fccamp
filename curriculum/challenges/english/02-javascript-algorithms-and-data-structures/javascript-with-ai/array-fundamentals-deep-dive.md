@@ -59,7 +59,7 @@ What is the concat method, and how do you use it to merge arrays?
 
 # --instructions--
 
-Do a research on Arrays topic with your coding partner <span style="color:blue;">([ChatGPT AI](https://chatgpt.com/))</span> and submit your <span style="color:blue;">[link](https://forms.gle/Br944QzCquXEAbrb8)</span> here in this form.
+Do a research on Arrays topic with your coding partner <a target="_blank" href="https://chatgpt.com/" style="color:blue;">ChatGPT AI</a> and submit your <a target="_blank" href="https://forms.gle/Br944QzCquXEAbrb8" style="color:blue;">link</a> here in this form.
 
 # --hints--
 

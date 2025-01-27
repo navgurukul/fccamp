@@ -53,7 +53,7 @@ What are the pitfalls of incorrect use of default keyword?
 
 # --instructions--
 
-Do a research on Switch Case topic with your coding partner <span style="color:blue;">([ChatGPT AI](https://chatgpt.com/))</span> and submit your <span style="color:blue;">[link](https://forms.gle/Br944QzCquXEAbrb8)</span> here in this form.
+Do a research on Switch Case topic with your coding partner <a href="https://chatgpt.com/" target="_blank" style="color:blue;">ChatGPT AI</a> and submit your <a href="https://forms.gle/Br944QzCquXEAbrb8" style="color:blue;" target="_blank">link</a> here in this form.
 
 # --hints--
 

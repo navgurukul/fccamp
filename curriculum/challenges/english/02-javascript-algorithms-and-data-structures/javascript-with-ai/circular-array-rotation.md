@@ -37,7 +37,7 @@ Every element is shifted right and last element comes at first position.
 
 # --instructions--
 
-Click on this <a href = "https://cs50.ai/chat">Link</a>  to Go to CS50 AI 
+Click on this <a target="_blank" href="https://cs50.ai/chat">Link</a>  to Go to CS50 AI 
 And use this prompt prompt __________
 Prompt: What does it mean to 'identify the number's sign' in this context?
 
