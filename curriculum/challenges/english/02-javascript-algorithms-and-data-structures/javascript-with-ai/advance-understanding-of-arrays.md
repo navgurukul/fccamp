@@ -9,18 +9,20 @@ dashedName: advance-understanding-of-arrays
 
 # --description--
 
-You've asked some amazing questions so far! :clap::clap:
-Now, let's take a deeper dive into the concept of arrays. This challenge is all about exploring the intricacies of arrays and enhancing your knowledge to a whole new level. Please read the document linked below and see what additional insights you can gather to deepen your understanding of arrays.
+<br>
+<br>
 
-**Instructions:**
+**Challenge Description :** 
+You've asked some amazing questions so far! 👏👏. Now, let's take a deeper dive into the concept of arrays. This challenge is all about exploring the intricacies of arrays and enhancing your knowledge to a whole new level. Please read the document linked below and see what additional insights you can gather to deepen your understanding of arrays.
 
-1. Explore the [Document](https://docs.google.com/document/d/1k9BWRBWBUiNjUnZ_5jEz4MaGJ4dz53xQ6ApszhJd0RI/edit) : Dive into the linked document and absorb the insights it offers about arrays. Pay close attention to the examples and explanations that will help you better understand how to use arrays in your code
+**Instructions :**
 
-2. Implement Your Learning: After reading, take what you've learned and apply it on your own. Try out different array methods, experiment with their properties, and see how they can be used in practical scenarios.
+1. Explore the <span style="color:blue;">[Document](https://docs.google.com/document/d/1k9BWRBWBUiNjUnZ_5jEz4MaGJ4dz53xQ6ApszhJd0RI/edit)</span> : Dive into the linked document and absorb the insights it offers about the Arrays.
+2. Implement Your Learning: After reading, take what you’ve learned and apply it on your own. Try out different Arrays methods, experiment with its properties, and see how they can be used in practical scenarios.
+3. Share Your Insights: Once you’ve implemented your learning, and <span style="color:blue;">[Submit your new ideas in this link](https://forms.gle/29q9d8LJqMwbcyzV9)</span>
+4. Your reflections and experiences will help solidify your mastery of this powerful tool of Arrays.
 
-3. Share Your Insights: Once you've implemented your learning, submit your final thoughts and understanding of arrays using the provided link. Your reflections and experiences will help solidify your mastery of this powerful tool.
-
-# --question--
+# --questions--
 
 ## --text--
 
@@ -28,19 +30,20 @@ Which of the following methods can be used to add an element to the end of an ar
 
 ## --answers--
 
-`push()`
+push()
 
 ---
 
-`pop()`
+pop()
 
 ---
 
-`shift()`
+shift()
 
 ---
 
-`unshift()`
+unshift()
+
 
 ## --video-solution--
 

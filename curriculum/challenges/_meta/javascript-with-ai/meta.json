@@ -8,16 +8,308 @@
   "superBlock": "javascript-algorithms-and-data-structures",
   "challengeOrder": [
     {
+      "id": "67481d26518f15417d8d91a1",
+      "title": "Managing Variable Data"
+    },
+    {
+      "id": "674b52fd4a6f90914675f601",
+      "title": "Cracking the Variable Code"
+    },
+    {
       "id": "66f2988e5ce47a89f2c3c012",
       "title": "Deepen Insight into Variables"
+    },
+    {
+      "id": "674714d99cb23c3b5a704b33",
+      "title": "Discover and Apply Data Types"
+    },
+    {
+      "id": "674b5362cdadb7917c8fec05",
+      "title": "Investigate Data Types in Javascript"
+    },
+    {
+      "id": "673ad9e1a82fdc23d8435140",
+      "title": "Master JavaScript Data Types"
+    },
+    {
+      "id": "674670da1cdfe3e7e9922e73",
+      "title": "Classify Variable Data Types"
+    },
+    {
+      "id": "67467bca43e34103c27b32c2",
+      "title": "Compare and Clarify Data Types"
+    },
+    {
+      "id": "67467befab007404086ee44e",
+      "title": "Concatenate and Display Strings"
+    },
+    {
+      "id": "67870ea22e0e551d34fc65c3",
+      "title": "Identify Type Conversion Methods"
+    },
+    {
+      "id": "67467c2df49e0d048b379dff",
+      "title": "Decide Umbrella Usage"
+    },
+    {
+      "id": "67481e1f0b7d28431289fa44",
+      "title": "Mastering Mathematical Operations"
+    },
+    {
+      "id": "674b5388ce65b291a4bc233a",
+      "title": "Mastering Operator Usage"
+    },
+    {
+      "id": "673ae387866c472ec6a6e266",
+      "title": "Master Operator Concepts"
+    },
+    {
+      "id": "67542f94ddb36571b423b87d",
+      "title": "Driving Eligibility Check"
+    },
+    {
+      "id": "67542fb29f51f57367dc7cd2",
+      "title": "Party Entry Check"
+    },
+    {
+      "id": "67870e1f40860e1c72b78821",
+      "title": "Logical Operator Precedence"
+    },
+    {
+      "id": "67481e4cb4ae6c4398d88ad0",
+      "title": "Master the Switch Case Statement"
+    },
+    {
+      "id": "674b53af022d4991cb96bea7",
+      "title": "Deep Dive into Switch Case"
+    },
+    {
+      "id": "673ae7f233afe83601bdc7c8",
+      "title": "Advanced Mastery of Switch Case"
+    },
+    {
+      "id": "67481e60c8adf043c26534ef",
+      "title": "Loop Mastery Review and Reinforce"
+    },
+    {
+      "id": "674b548795cabb94ffd3bafe",
+      "title": "Mastering Loop Structures"
+    },
+    {
+      "id": "66ff96f751c97b3cd7e7a44b",
+      "title": "Advanced Exploration of Loop Structures"
+    },
+    {
+      "id": "67543025063c7f741cac607e",
+      "title": "Odd-Even Index Swap"
+    },
+    {
+      "id": "6754304d21779d7445490b1a",
+      "title": "Collatz Sequence Generator"
+    },
+    {
+      "id": "675430cce5ec2c746da638bc",
+      "title": "Circular Array Rotation"
+    },
+    {
+      "id": "6754319594cb16756e638f62",
+      "title": "Skip Perfect Squares"
+    },
+    {
+      "id": "675431b0013bfb76145d8bd5",
+      "title": "Print Prime Numbers"
+    },
+    {
+      "id": "67481e726a705f43e24b7d29",
+      "title": "Understanding Variable Boundaries"
+    },
+    {
+      "id": "674b54a83feef295407439cd",
+      "title": "Unlocking Javascript Scopes"
+    },
+    {
+      "id": "674560b6b1cdd67f2f07c3b7",
+      "title": "Explore and Master Scopes"
+    },
+    {
+      "id": "67543203521165763c06d85a",
+      "title": "Traffic Light Response"
+    },
+    {
+      "id": "677bbe94287556b6d3eedfda",
+      "title": "Triangle Type Checker"
+    },
+    {
+      "id": "677bc4d1dfed46c39bea6754",
+      "title": "Price Discount Calculator"
+    },
+    {
+      "id": "67481e87fc3c824401f03a42",
+      "title": "Mastering Function Creation"
+    },
+    {
+      "id": "674b54cecadb079583138946",
+      "title": "Elevating Function Mastery"
+    },
+    {
+      "id": "6745614d72027a7f7c8546e9",
+      "title": "Strengthen Understanding of Functions"
+    },
+    {
+      "id": "675432474711c6768f52d67e",
+      "title": "Multiply array Elements"
+    },
+    {
+      "id": "675432e55ba97f76b33e2d3a",
+      "title": "Simple Calculator Function"
+    },
+    {
+      "id": "67543315a0f4197822b69ef0",
+      "title": "Flatten Nested Array"
+    },
+    {
+      "id": "67481e96c965f04422309dd7",
+      "title": "Handling Object Data"
+    },
+    {
+      "id": "674b54e5ade51295b45a2cc1",
+      "title": "Mastering Object Fundamentals"
+    },
+    {
+      "id": "67455f84ab3b287eae0457a4",
+      "title": "Enhance Understanding of Objects"
+    },
+    {
+      "id": "6754334ab3c1b278468adc18",
+      "title": "Person Object Creator"
+    },
+    {
+      "id": "67543370f9bb22786d6f0692",
+      "title": "Enhanced Person Object"
+    },
+    {
+      "id": "6754339ea79377788eeeeb02",
+      "title": "Birthday Celebration Method"
+    },
+    {
+      "id": "675433bf0e3e1478af660590",
+      "title": "List Person Details"
+    },
+    {
+      "id": "675433d8dc140478e1d73240",
+      "title": "Add Friend Method"
+    },
+    {
+      "id": "67481ea50f6b2b44412cf75e",
+      "title": "Organizing Data Collections"
+    },
+    {
+      "id": "674b5504aa043f95d0f06a42",
+      "title": "Array Fundamentals Deep Dive"
     },
     {
       "id": "66ff9497a20c5b37f678bf8d",
       "title": "Advance Understanding of Arrays"
     },
     {
-      "id": "66ff96f751c97b3cd7e7a44b",
-      "title": "Advanced Exploration of Loop Structures"
+      "id": "675433f3c26c087905e22ced",
+      "title": "Shopping List Manager"
+    },
+    {
+      "id": "675434137f447d7926cdaca5",
+      "title": "Advanced Shoopping List"
+    },
+    {
+      "id": "6754343d48db477949135b57",
+      "title": "Enhanced Shopping List"
+    },
+    {
+      "id": "67543473508572797156f17f",
+      "title": "Deatiled Shopping List"
+    },
+    {
+      "id": "675434b92364017a9764d618",
+      "title": "Shopping List Enhancements"
+    },
+    {
+      "id": "67481eb214802244b65242c4",
+      "title": "Manipulating String Data"
+    },
+    {
+      "id": "674b551826fdcf9619a6f6e4",
+      "title": "Mastering String Manipulation"
+    },
+    {
+      "id": "67455e18a4e2887d221cfea9",
+      "title": "Deep Dive into Strings"
+    },
+    {
+      "id": "675434d476f9b77ab6afecee",
+      "title": "String Transformer"
+    },
+    {
+      "id": "675434ef1448267ad6ff9457",
+      "title": "Capitalize Words"
+    },
+    {
+      "id": "675435227cdba57af28d69ed",
+      "title": "Palindrome Checker"
+    },
+    {
+      "id": "67543537a33d657b1b9aa55f",
+      "title": "String Compressor"
+    },
+    {
+      "id": "67543567604c727b38807d19",
+      "title": "Caeser Cipher Encoder"
+    },
+    {
+      "id": "67481a9994eaf139d082b7b2",
+      "title": "Exploring Date Object"
+    },
+    {
+      "id": "674b553ca16e729637bb28af",
+      "title": "Conquering Date Object Skills"
+    },
+    {
+      "id": "67455ed310c7a07db699d386",
+      "title": "Deepen Insight into Date Object"
+    },
+    {
+      "id": "67543588baf80a7b6069c132",
+      "title": "Date Adder"
+    },
+    {
+      "id": "675435ad51513d7b82408d5a",
+      "title": "Weekend Checker"
+    },
+    {
+      "id": "675435c970bc547ba287b9d4",
+      "title": "Days Until Birthday"
+    },
+    {
+      "id": "675435e338706a7bc6911016",
+      "title": "Custom Date Formatter"
+    },
+    {
+      "id": "67481ec262dcc144db3d5a3c",
+      "title": "Exploring Math object"
+    },
+    {
+      "id": "674b555a3539ef96826d5643",
+      "title": "Cracking the Math Object Code"
+    },
+    {
+      "id": "673b1a4faa5d1467616b28c6",
+      "title": "Enhancing Your Math Object Mastery"
+    },
+    {
+      "id": "6754363dcd601a7c0c8bfbe7",
+      "title": "Calculating Circle Circumference"
+    },
+    {
+      "id": "67543664e6f1637c38f64936",
+      "title": "Calculating distance Between Points"
     }
   ],
   "helpCategory": "JavaScript"

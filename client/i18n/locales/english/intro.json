@@ -299,8 +299,11 @@
       "javascript-with-ai": {
         "title": "Javascript with AI",
         "intro": [
-          "This is it — time to put your new JavaScript skills to work. These projects are similar to the algorithm scripting challenges you've done before – just much more difficult.",
-          "This is it — time to put your new JavaScript skills to work. These projects are similar to the algorithm scripting challenges you've done before – just much more difficult."
+          "Congratulations on completing the first part of our programming course! 🎉 Ready to level up your JavaScript skills? Module 4 is your gateway to mastering this powerful language, with AI tools to make learning both engaging and effective.",
+          "This module will guide you through 12 exciting topics, building on your previous knowledge and diving deeper. We’ve curated resources and strategies to help you advance, whether you're a newbie or looking to refine your skills.",
+          "Don’t forget to revisit the <a style='color: blue; font-weight: bold;' href='https://docs.google.com/document/d/1x2okgqqrJVaiInL_VAnsdxr6V9GL6qgArEWyZY-SXdI/edit?tab=t.0#heading=h.8agiujvjuc7d' target='_blank' >Learning JS through AI</a>  activity 🤖 . It’s a great way to get tips on using AI as your learning buddy and make the most out of this module.",
+          "We’ll explore each topic in-depth, unraveling JavaScript’s complexities and expanding your knowledge. Get ready to dive in, explore new concepts, and unlock your full programming potential!",
+          "Let’s jump in and make this learning journey not just productive but also exciting and rewarding. 🚀 Let’s go!"
         ]
       }
     }

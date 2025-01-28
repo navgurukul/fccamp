@@ -30,7 +30,7 @@ dashedName: discover-power-of-nodejs
 - Node.js files ko server par initiate kiya jana chahiye pehle se kisi bhi prabhav ko dikhane ke liye.
 - Node.js files ka extension ".js" hota hai.
 
-# --question--
+# --questions--
 
 ## --text--
 

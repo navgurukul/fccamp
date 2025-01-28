@@ -55,7 +55,7 @@ And use this prompt.
 Ensure that you calculate the sum of digits accurately without using any built-in functions.
 
 ```js
-assert(!code.match(/\.split/));
+assert(code.match(/%/));
 
 ```
 
@@ -84,13 +84,13 @@ sumOfDigits(456);
 
 ```js
 function sumOfDigits(number) {
-   let sum = 0;
-   let temp = Math.abs(number);
-   while (temp > 0) {
-       sum += temp % 10;
-       temp = Math.floor(temp / 10);
-   }
-   return(sum);
+    let total = 0;
+    // Loop through each digit in the number
+    while (number > 0) {
+        total += number % 10;  // Add the last digit to total
+        number = (number - (number % 10)) / 10;  // Remove the last digit
+    }
+    return total;
 }
 ```
 

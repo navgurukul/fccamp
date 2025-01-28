@@ -64,7 +64,6 @@ function printPattern(arr) {
   
   // Only change code above this line
 }
-
 printPattern([2, 3, 5, 2, 1]);
 ```
 
@@ -72,17 +71,18 @@ printPattern([2, 3, 5, 2, 1]);
 
 ```js
 function printPattern(arr) {
+let pattern = "";
  for (let numIndex = 0; numIndex < arr.length; numIndex++) {
-    let pattern = "";
+    // let pattern = "";
     for (let i = 0; i < arr[numIndex]; i++) {
       pattern += ">";
     }
-    console.log(pattern);
+    // console.log(pattern);
     if (numIndex !== arr.length - 1) {
-      console.log(""); 
+      pattern+="\n";
     }
   }
+  return pattern;
 }
-
 ```
 
