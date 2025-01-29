@@ -42,7 +42,8 @@ jobs:
           key: ${{ runner.os }}-buildx-${{ matrix.images }}-${{ github.sha }}
           restore-keys: |
             ${{ runner.os }}-buildx-${{ matrix.images }}-
-
+      - name: Create .env file
+        run: echo "${{ secrets.ENV_FILE }}" > .env
       - name: Build and tag Docker image
         run: |
           echo "Building API image..."
